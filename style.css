@@ -1,0 +1,111 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  background-color: #495057;
+  font-family: "Montserrat", sans-serif;
+  color: #fff;
+}
+
+.container {
+  width: 800px;
+  margin: 0 auto;
+  background-color: #343a40;
+  padding: 16px;
+  box-shadow: 0px 10px 20px 0px rgb(23, 23, 24);
+}
+
+.main-header {
+}
+
+.main-heading {
+    color : #dee2e6;
+}
+
+ul,
+ol {
+  margin: 0;
+  list-style-type: none;
+  padding: 0;
+}
+
+input[type="text"] {
+  transition: all 0.3s ease-in-out;
+  outline: none;
+  padding: 12px;
+  border: 1px solid #dddddd;
+  border-radius : 12px;
+  font-size: 16px;
+}
+
+input[type="text"]:focus {
+  box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+  border: 1px solid rgba(81, 203, 238, 1);
+}
+
+.todo-entry {
+  display: flex;
+  padding: 8px;
+  gap: 20px;
+  align-items: center;
+  background-color: #12b886;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  font-size : 18px;
+  font-weight: 500;
+}
+
+.todo-entry:last-child {
+    margin : 0;
+}
+
+.trash-icon {
+  width: 24px;
+  height: 24px;
+  stroke : #fff;
+}
+
+.plus-icon {
+  width: 18px;
+  height: 18px;
+}
+
+.btn {
+  padding: 8px;
+  border: 1px solid black;
+  border-radius: 12px;
+  font-size: 18px;
+  border-radius : 50%;
+  text-align: center;
+}
+
+.btn-submit {
+  background-color: #087f5b;
+  color: #fff;
+}
+
+.btn-submit:hover {
+  background-color: #099268;
+}
+
+.btn-trash {
+    background-color : #e03131;
+    margin-left: auto;
+}
+
+.btn-trash:hover {
+    background-color : #f03e3e;
+}
+
+.task-finished {
+    text-decoration: line-through;
+}
+
+#add-todo-form {
+    margin-top : 18px;
+}
+
+#completed-label {
+    font-size : 20px;
+    font-weight: 700;
+}

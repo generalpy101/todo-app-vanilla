@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <script defer src="./script.js"></script>
+    <title>To Do App</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="main-header">
+        <h1 class="main-heading">To Do Application</h1>
+      </header>
+      <article class="main-content">
+        <div class="todo-container">
+          <ul class="todo-list"></ul>
+          <p id="completed-label">Completed : </p>
+          <ul class="todo-list-completed">
+          </ul>
+        </div>
+        <form id="add-todo-form" autocomplete="off">
+          <input type="text" placeholder="Enter task..." id="todo-entry-input" minlength="1" maxlength="100"/>
+          <button class="btn btn-submit" type="submit">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="plus-icon"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M12 6v6m0 0v6m0-6h6m-6 0H6"
+              />
+            </svg>
+          </button>
+        </form>
+      </article>
+    </div>
+  </body>
+</html>
